@@ -29,13 +29,23 @@ img {
   width: auto;
 }
 
+@media screen and (max-width: 1024px) {
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 83%;
+        height: 83%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     section {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 73%;
-        height: 73%;
+        width: 77%;
+        height: 77%;
     }
 }
 
@@ -44,8 +54,8 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
-        height: 80%;
+        width: 75%;
+        height: 75%;
     }
 }
 
